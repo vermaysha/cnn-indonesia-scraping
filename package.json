@@ -1,0 +1,23 @@
+{
+  "name": "cnn-indonesia-scraping",
+  "version": "1.0.0",
+  "description": "Scraping halaman ekonomi pada cnn indonesia",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "keywords": [
+    "scrape",
+    "cnn-indonesia"
+  ],
+  "author": {
+    "name": "Ashary Vermaysha",
+    "email": "vermaysha@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^19.8.0"
+  }
+}
